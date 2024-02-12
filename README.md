@@ -7,6 +7,7 @@ changelogs (not all, just find out the others)
 - disabled some characters because they're weak/broken
 - fixing some skills (fixed alchemist ulti, omniknight hammer of purity, omniknight guardian angel)
 - fixed item builds for bots into more relevant ones, newer items can be bought
+  
 and more
 
 Credit: 
