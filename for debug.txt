@@ -1,0 +1,344 @@
+GCClient] Send msg 7034 (k_EMsgGCConnectedPlayers), 25 bytes
+C:Gamerules: entering state 'DOTA_GAMERULES_STATE_STRATEGY_TIME'
+[Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_STRATEGY_TIME
+[Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_STRATEGY_TIME
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 477 bytes
+[Server] PR:SetPlayerName 10:[U:1:193958172] "sapphire5"
+[Server] PR:SetPlusSubscriptionStatus 10:[U:1:193958172] IsPlusSubscriber:No
+[Server] PR:SetWasMVPLastGame 10:[U:1:193958172] WasMVPLastGame:No
+[Server] PR:SetFavoriteTeamPacked 10:[U:1:193958172] unFavTeamPacked:0
+SetLiveSpectatorDetails -1 1
+--- CSODOTALobby.game_state: DOTA_GAMERULES_STATE_HERO_SELECTION
++++ CSODOTALobby.game_state: DOTA_GAMERULES_STATE_STRATEGY_TIME
+[WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 140.274252ms
+[WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 94.071904ms
+S:Gamerules: entering state 'DOTA_GAMERULES_STATE_TEAM_SHOWCASE'
+[GCClient] Send msg 4508 (k_EMsgGCGameServerInfo), 90 bytes
+--- Sent CMsgGameServerInfo to GC
+server_public_ip_addr: 1892204683
+server_private_ip_addr: 3232253043
+server_port: 27015
+server_tv_port: 27020
+server_key: ""
+server_hibernation: false
+server_type: GAME
+server_region: 0
+server_loadavg: 0.11345955
+server_tv_broadcast_time: 59.4
+server_game_time: -16
+relay_slots_max: 64
+relays_connected: 0
+relay_clients_connected: 0
+tv_secret_code: 6071176268169470267
+server_version: 5974
+server_cluster: 0
+assigned_server_tv_port: 27020
+allow_custom_games: BOTH
+build_version: 5974
+tf_server_count: 1
+is_recording_match_training_data: false
+
+---
+Sending CMsgConnectedPlayers for reason GAME_STATE.  Last send was 15.2s ago, urgency is 0.0s
+game_state: DOTA_GAMERULES_STATE_TEAM_SHOWCASE
+first_blood_happened: false
+send_reason: GAME_STATE
+radiant_kills: 0
+dire_kills: 0
+radiant_lead: 0
+building_state: 19138340
+
+[GCClient] Send msg 7034 (k_EMsgGCConnectedPlayers), 25 bytes
+C:Gamerules: entering state 'DOTA_GAMERULES_STATE_TEAM_SHOWCASE'
+[Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_TEAM_SHOWCASE
+[Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_TEAM_SHOWCASE
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 477 bytes
+[Server] PR:SetPlayerName 10:[U:1:193958172] "sapphire5"
+[Server] PR:SetPlusSubscriptionStatus 10:[U:1:193958172] IsPlusSubscriber:No
+[Server] PR:SetWasMVPLastGame 10:[U:1:193958172] WasMVPLastGame:No
+[Server] PR:SetFavoriteTeamPacked 10:[U:1:193958172] unFavTeamPacked:0
+SetLiveSpectatorDetails -1 1
+--- CSODOTALobby.game_state: DOTA_GAMERULES_STATE_STRATEGY_TIME
++++ CSODOTALobby.game_state: DOTA_GAMERULES_STATE_TEAM_SHOWCASE
+[SndOperators] Operator Error: Event valve_dota_001.music.ui_hero_select: CSosOperatorConvar
+[SndOperators] Warning: Unable to acquire convar value: dota_music_enable_spectator_mode
+S:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD'
+Sending CMsgConnectedPlayers for reason GAME_STATE.  Last send was 16.0s ago, urgency is 0.0s
+game_state: DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD
+first_blood_happened: false
+send_reason: GAME_STATE
+radiant_kills: 0
+dire_kills: 0
+radiant_lead: 0
+building_state: 19138340
+
+[GCClient] Send msg 7034 (k_EMsgGCConnectedPlayers), 25 bytes
+[Server] Created physics for dota
+Bot ward spot ward_spot_dire_high_point_top in an invalid location, this may cause bots to get stuckBot ward spot ward_spot_dire_jungle_top in an invalid location, this may cause bots to get stuck
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 477 bytes
+[Server] PR:SetPlayerName 10:[U:1:193958172] "sapphire5"
+[Server] PR:SetPlusSubscriptionStatus 10:[U:1:193958172] IsPlusSubscriber:No
+[Server] PR:SetWasMVPLastGame 10:[U:1:193958172] WasMVPLastGame:No
+[Server] PR:SetFavoriteTeamPacked 10:[U:1:193958172] unFavTeamPacked:0
+SetLiveSpectatorDetails -1 1
+--- CSODOTALobby.game_state: DOTA_GAMERULES_STATE_TEAM_SHOWCASE
++++ CSODOTALobby.game_state: DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD
+[SpawnGroup] SynchronouslySpawnGroup for group 'CL:  [15: dota | world_layer_dire_base | <none>]' took 2268us
+[SpawnGroup] SynchronouslySpawnGroup for group 'CL:  [16: dota | world_layer_radiant_base | <none>]' took 3260us
+[Client] Created physics for dota
+C:Gamerules: entering state 'DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD'
+[Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD
+S:Gamerules: entering state 'DOTA_GAMERULES_STATE_PRE_GAME'
+m_flPreGameStartTime set to 85.47
+m_flStateTransitionTime set to 145.47
+[GCClient] Send msg 4508 (k_EMsgGCGameServerInfo), 90 bytes
+--- Sent CMsgGameServerInfo to GC
+server_public_ip_addr: 1892204683
+server_private_ip_addr: 3232253043
+server_port: 27015
+server_tv_port: 27020
+server_key: ""
+server_hibernation: false
+server_type: GAME
+server_region: 0
+server_loadavg: 0.137602508
+server_tv_broadcast_time: 75.4333344
+server_game_time: -60
+relay_slots_max: 64
+relays_connected: 0
+relay_clients_connected: 0
+tv_secret_code: 6071176268169470267
+server_version: 5974
+server_cluster: 0
+assigned_server_tv_port: 27020
+allow_custom_games: BOTH
+build_version: 5974
+tf_server_count: 1
+is_recording_match_training_data: false
+
+---
+[GCClient] Send msg 8744 (k_EMsgServerToGCGetGuildContracts), 17 bytes
+Sending CMsgConnectedPlayers for reason GAME_STATE.  Last send was 0.8s ago, urgency is 0.0s
+game_state: DOTA_GAMERULES_STATE_PRE_GAME
+first_blood_happened: false
+send_reason: GAME_STATE
+radiant_kills: 0
+dire_kills: 0
+radiant_lead: 0
+building_state: 4784201
+
+[GCClient] Send msg 7034 (k_EMsgGCConnectedPlayers), 25 bytes
+Height map file (maps/prefabs/promotional_radiant_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+Height map file (maps/prefabs/promotional_dire_fountain.vhcg) not found, this will make ground height traces more expensive! Recompile the map to generate a height map.
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...\scripts\vscripts\bots\ability_item_usage_juggernaut.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_juggernaut.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+C:Gamerules: entering state 'DOTA_GAMERULES_STATE_PRE_GAME'
+[Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_PRE_GAME
+[Client] PregameHud - SetPreGameVisible 0
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...ts\vscripts\bots\ability_item_usage_phantom_assassin.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_phantom_assassin.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...vscripts\bots\ability_item_usage_keeper_of_the_light.lua:6: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_keeper_of_the_light.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...e\dota\scripts\vscripts\bots\ability_item_usage_chen.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_chen.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[Client] PregameHud - eGameState is now DOTA_GAMERULES_STATE_PRE_GAME
+[Client] PregameHud - SetPreGameVisible 1
+[GCClient] Recv msg 8745 (k_EMsgServerToGCGetGuildContractsResponse), 17 bytes
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 477 bytes
+[Server] PR:SetPlayerName 10:[U:1:193958172] "sapphire5"
+[Server] PR:SetPlusSubscriptionStatus 10:[U:1:193958172] IsPlusSubscriber:No
+[Server] PR:SetWasMVPLastGame 10:[U:1:193958172] WasMVPLastGame:No
+[Server] PR:SetFavoriteTeamPacked 10:[U:1:193958172] unFavTeamPacked:0
+SetLiveSpectatorDetails -1 1
+--- CSODOTALobby.game_state: DOTA_GAMERULES_STATE_WAIT_FOR_MAP_TO_LOAD
++++ CSODOTALobby.game_state: DOTA_GAMERULES_STATE_PRE_GAME
+[VScript] LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...ripts\vscripts\bots\ability_item_usage_faceless_void.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_faceless_void.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...\scripts\vscripts\bots\ability_item_usage_juggernaut.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_juggernaut.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...ts\vscripts\bots\ability_item_usage_phantom_assassin.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_phantom_assassin.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...\vscripts\bots\ability_item_usage_ancient_apparition.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_ancient_apparition.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...ta\scripts\vscripts\bots\ability_item_usage_silencer.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_silencer.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+	[C]: in function 'dofile'
+	...ripts\vscripts\bots\ability_item_usage_faceless_void.lua:5: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_faceless_void.lua'!
+[VScript] Script Runtime Error: ...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: module 'game/botsinit' not found:
+	no field package.preload['game/botsinit']Failed to find scripts\vscripts\game\botsinit.lua
+stack traceback:
+	[C]: in function 'require'
+	...ota\scripts\vscripts\bots\ability_item_usage_generic.lua:1: in main chunk
+Failed to run script 'D:\Games\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\ability_item_usage_generic.lua'!
+[WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 61.546605ms
+[WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 63.039386ms
+[WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 76.320517ms
+[WorldRenderer] CWorldRendererMgr::ServiceWorldRequests long frame: 66.350514ms
+[Client] PregameHud - SetPreGameVisible 0
+S:Gamerules: entering state 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS'
+m_flGameStartTime set to 145.50
+Sending CMsgConnectedPlayers for reason GAME_STATE.  Last send was 60.2s ago, urgency is 0.0s
+game_state: DOTA_GAMERULES_STATE_GAME_IN_PROGRESS
+first_blood_happened: false
+send_reason: GAME_STATE
+radiant_kills: 0
+dire_kills: 0
+radiant_lead: 0
+building_state: 4784201
+
+[GCClient] Send msg 7034 (k_EMsgGCConnectedPlayers), 25 bytes
+C:Gamerules: entering state 'DOTA_GAMERULES_STATE_GAME_IN_PROGRESS'
+[Client] CDOTA_Hud_Main::EventGameRulesStateChanged DOTA_GAMERULES_STATE_GAME_IN_PROGRESS
+[Client] CDOTA_Hud_Main::DeleteGameEndScreen deleted GameEndContainer
+[GCClient] Send msg 4508 (k_EMsgGCGameServerInfo), 90 bytes
+--- Sent CMsgGameServerInfo to GC
+server_public_ip_addr: 1892204683
+server_private_ip_addr: 3232253043
+server_port: 27015
+server_tv_port: 27020
+server_key: ""
+server_hibernation: false
+server_type: GAME
+server_region: 0
+server_loadavg: 0.0978081822
+server_tv_broadcast_time: 135.53334
+server_game_time: 0.0333404541
+relay_slots_max: 64
+relays_connected: 0
+relay_clients_connected: 0
+tv_secret_code: 6071176268169470267
+server_version: 5974
+server_cluster: 0
+assigned_server_tv_port: 27020
+allow_custom_games: BOTH
+build_version: 5974
+tf_server_count: 1
+is_recording_match_training_data: false
+
+---
+[GCClient] Recv msg 26 (k_ESOMsg_UpdateMultiple), 477 bytes
+[Server] PR:SetPlayerName 10:[U:1:193958172] "sapphire5"
+[Server] PR:SetPlusSubscriptionStatus 10:[U:1:193958172] IsPlusSubscriber:No
+[Server] PR:SetWasMVPLastGame 10:[U:1:193958172] WasMVPLastGame:No
+[Server] PR:SetFavoriteTeamPacked 10:[U:1:193958172] unFavTeamPacked:0
+SetLiveSpectatorDetails -1 1
+--- CSODOTALobby.game_state: DOTA_GAMERULES_STATE_PRE_GAME
++++ CSODOTALobby.game_state: DOTA_GAMERULES_STATE_GAME_IN_PROGRESS
+
+
+faceless, chen, keeper wala skills
