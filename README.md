@@ -1,3 +1,4 @@
+💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕💕
 This is me trying to fix BOT EXPERIMENT Credit: FURIOUSPUPPY. i didnt learn coding, the codes are mostly made by arzon4dt. (github) i just jumbled and tried to fix the code. Hope the bots will be better than the existing ones!
 
 changelogs (not all, just find out the others)
@@ -15,7 +16,7 @@ Nostrademous
 PLATINUM
 https://github.com/adamqqqplay/dota2ai
 
-If you liked this project, please buy me a Ko-fi! Thank you! :)
+If you liked this project, please buy me a Ko-fi to keep me motivated for future updates! Thank you! :)
 
 I hope people would have fun playing with my baby bots (UwU)/
 
