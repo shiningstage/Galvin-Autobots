@@ -10,6 +10,25 @@ changelogs (not all, just find out the others)
   
 and more
 
+instructions: this is what i did
+1. Download the zip file from github
+2. Create a bots folder containing the files from the github
+(under the directory \SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\ )
+
+in other words, the whole zip file will go into..
+...\SteamLibrary\steamapps\common\dota 2 beta\game\dota\scripts\vscripts\bots\
+
+3. Create a lobby with localhost server (you have to be online)
+4. On the bot script dropdown select local dev script
+5. Select the game mode (support Captain Mode, All Pick, Turbo Mode, Mid Only Same Hero, and 1 VS 1)
+NOTE: i only tested this on turbo mode
+6. Start the game and enjoy!
+
+you'll know you did it correctly if the bots' names are based from famous esports teams in a
+(team).(playername).(sponsor) format.
+
+Note: Recently starting the game using Practice with bot using this script will only select the default bot hero pool and disable the chat to select a hero and lane assignment feature since GetTeamPlayers() function of the API will return only human player as the valid player. This caused the script to unable to assign a selected hero to the bot player id so the default bot hero selection logic will take over this script hero selection logic.
+
 Credit: 
 BOT EXPERIMENT Credit:FURIOUSPUPPY
 WIP - Bots by FuriousPuppy
